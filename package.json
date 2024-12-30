@@ -1,0 +1,45 @@
+{
+  "name": "astro-date-sync",
+  "version": "1.0.0-dev",
+  "description": "An integration for Astro that updates the publishDate field in your .mdx",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "dev": "npm link"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsup": "8.3.5",
+    "typescript": "5.7.2"
+  },
+  "peerDependencies": {
+    "astro": "^5.1.1"
+  },
+  "author": {
+    "name": "rperezll",
+    "url": "https://github.com/rperezll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rperezll/AstroDateSync"
+  },
+  "license": "GPL-3.0",
+  "keywords": [
+    "AstroDateSync",
+    "integration",
+    "astro",
+    "sync-date",
+    "update-date",
+    "mdx"
+  ]
+}
