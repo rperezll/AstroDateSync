@@ -1,6 +1,6 @@
 {
   "name": "astro-date-sync",
-  "version": "1.0.0-dev",
+  "version": "1.0.1",
   "description": "An integration for Astro that updates the publishDate field in your .mdx",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
@@ -12,6 +12,11 @@
       "require": "./dist/index.cjs"
     }
   },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
   "type": "module",
   "scripts": {
     "build": "tsup",

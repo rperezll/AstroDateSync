@@ -14,7 +14,7 @@ npm i astro-date-sync --save-dev
 
 ## 🧑‍🚀 Configuration
 
-The `AstroDateSync` element exported by the library is of type [**AstroIntegration**](), which means it is designed to be used in the **integrations array** of your `astro.config.ts` file:
+The `AstroDateSync` element exported by the library is of type [**AstroIntegration**](https://docs.astro.build/en/reference/integrations-reference/#quick-api-reference), which means it is designed to be used in the **integrations array** of your `astro.config.ts` file:
 
 ```ts
 import { AstroDateSync } from 'astro-date-sync';
@@ -30,4 +30,4 @@ Once our `astro.config` is configured, the library will **automatically listen f
 
 ## 📝 License
 
-- [GNU GENERAL PUBLIC LICENSE 3.0]()
+- [GNU GENERAL PUBLIC LICENSE 3.0](https://github.com/rperezll/AstroDateSync/blob/main/LICENSE)
